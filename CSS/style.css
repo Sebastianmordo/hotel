@@ -201,3 +201,10 @@ button:hover {
     color: green;
     text-decoration: underline;
 }
+
+
+#contact-form label {
+    font-weight: bold;
+    display: block; 
+    margin-bottom: 5px;
+}
