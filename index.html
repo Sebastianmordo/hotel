@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Portal Amazónico</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
+
 </head>
 <body>
     <header class="main-header">
@@ -81,6 +83,24 @@
                     <h3>Desayuno Incluido</h3>
                     <p>Disfruta de un desayuno delicioso cada mañana.</p>
                 </div>
+                
+                <section id="contacto" class="section-content">
+                    <h2>Contacto</h2>
+                    <form id="contact-form">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                        
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <p id="form-feedback" style="display: none;"></p>
+                </section>
+                
         
     </main>
     <footer class="main-footer">

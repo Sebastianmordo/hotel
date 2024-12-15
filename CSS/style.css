@@ -142,8 +142,62 @@ body {
 }
 
 .contact-icon {
-    width: 24px; /* Ajusta este valor para cambiar el tamaño del icono */
+    width: 24px; 
     height: auto;
-    margin-right: 10px; /* Espacio entre el icono y el texto */
-    display: inline-block; /* Asegura que el icono mantenga su tamaño */
+    margin-right: 10px; 
+    display: inline-block; 
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+.error-message {
+    color: red;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.success-message {
+    color: green;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.promotion-message {
+    color: green;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.menu-hover {
+    color: green;
+    text-decoration: underline;
 }
